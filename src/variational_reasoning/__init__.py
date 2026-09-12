@@ -30,8 +30,31 @@ from .trice import (
     trice_step,
 )
 
+from .attribution import (
+    TraceSplit,
+    adjusted_declaration_effect,
+    answer_free_prefix,
+    boundary_set,
+    bypass_effect,
+    declaration_effect,
+    factor_attribution,
+    fit_gamma,
+    maximal_admissible_cut,
+    tempered_joint_weights,
+)
+
 __all__ = [
     "Chain",
+    "TraceSplit",
+    "answer_free_prefix",
+    "bypass_effect",
+    "declaration_effect",
+    "factor_attribution",
+    "fit_gamma",
+    "adjusted_declaration_effect",
+    "boundary_set",
+    "maximal_admissible_cut",
+    "tempered_joint_weights",
     "Candidate",
     "NullLatentPosterior",
     "Proposal",
